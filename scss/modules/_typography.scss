@@ -1,0 +1,29 @@
+.section-title {
+  font-size: 36px;
+  text-align: center;
+  margin: 0 0 35px;
+
+  span {
+    background-color: #fff;
+    position: relative;
+    padding: 0 30px;
+
+    &:before,
+    &:after {
+      content: '';
+      height: 1px;
+      width: 120px;
+      background-color: #000;
+      position: absolute;
+      top: 22px;
+    }
+
+    &:before {
+      right: 100%;
+    }
+
+    &:after {
+      left: 100%;
+    }
+  }
+}

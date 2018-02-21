@@ -1,0 +1,65 @@
+.main-button {
+  display: inline-block;
+  border: 1px solid #00a651;
+  text-decoration: none;
+  outline: 0;
+  padding: 0 30px;
+  color: #00a651;
+  font-size: 16px;
+  line-height: 36px;
+  transition: 0.25s linear;
+  background-color: #fff;
+  text-align: center;
+
+  span {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  svg {
+    display: inline-block;
+    vertical-align: top;
+    width: 14px;
+    fill: #00a651;
+    margin: 11px 0 0 13px;
+    transition: 0.25s linear;
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: #00a651;
+    color: #fff;
+
+    svg {
+      fill: #fff;
+    }
+  }
+
+  &.fill-button {
+    background-color: #00a651;
+    border: 1px solid #00a651;
+    color: #fff;
+
+    span {
+      margin: 0 10px;
+    }
+
+    svg {
+      fill: #fff;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: #00a651;
+
+      svg {
+        fill: #00a651;
+      }
+    }
+  }
+}

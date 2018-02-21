@@ -1,0 +1,151 @@
+.main-slider {
+  margin: 0 0 50px;
+
+  .item {
+    height: 350px;
+    background-size: contain;
+    background-position: right 80px center ;
+    background-repeat: no-repeat;
+    outline: 0;
+    padding: 20px 0 0 90px;
+  }
+
+  &:hover {
+    .slick-arrow {
+      opacity: 1;
+    }
+  }
+
+  .slick-arrow {
+    position: absolute;
+    background-color: #00a651;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    z-index: 5;
+    transition: 0.35s;
+    opacity: 0;
+
+    svg {
+      display: block;
+      width: 20px;
+      margin: 0 auto;
+    }
+
+    &.next-arrow {
+      right: -15px;
+    }
+
+    &.prev-arrow {
+      left: -15px;
+      padding-right: 5px;
+    }
+  }
+
+  .text-container {
+    max-width: 500px;
+
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+      margin: 0 0 20px;
+      line-height: 1.3;
+
+      strong {
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 1.2;
+      }
+
+      span {
+        color: #00a651;
+        font-size: 34px;
+      }
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .main-button {
+      margin: 20px 0 0;
+    }
+  }
+}
+
+.novelty-products {
+  .section-title {
+    margin: 0 0 45px;
+  }
+
+  .nav-tabs {
+    text-align: center;
+
+  > li {
+      float: none;
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      > a {
+        color: #444;
+        font-size: 18px;
+      }
+
+      &.active {
+        > a {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    padding: 30px 0;
+  }
+}
+
+.novelty-slider {
+  .slick-list {
+    padding-top: 8px;
+  }
+
+  .item {
+    outline: 0;
+    margin: 0 10px;
+  }
+
+  .slick-arrow {
+    position: absolute;
+    background-color: #00a651;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0;
+    z-index: 5;
+    transition: 0.35s;
+
+    svg {
+      display: block;
+      width: 20px;
+      margin: 0 auto;
+    }
+
+    &.next-arrow {
+      right: -10px;
+    }
+
+    &.prev-arrow {
+      left: -10px;
+    }
+  }
+}

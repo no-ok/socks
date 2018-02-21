@@ -1,0 +1,84 @@
+.autorization-container {
+  max-width: 500px;
+  margin: 0 auto 100px;
+
+  h1 {
+    margin: 55px 0 20px;
+  }
+
+  .form-descr {
+    margin: 0 0 40px;
+    p {
+      color: #838383;
+      margin: 0;
+      text-align: center;
+    }
+  }
+
+  > p {
+    font-size: 16px;
+    text-align: center;
+    clear: both;
+
+    a {
+      color: #00a651;
+    }
+  }
+
+  .form-row {
+    margin: 0 0 25px;
+
+    .form-control {
+      box-shadow: none;
+      border-radius: 0;
+      height: 42px;
+    }
+  }
+
+  .main-button {
+    width: 100%;
+    height: 42px;
+    margin: 20px 0 25px;
+    font-size: 18px;
+  }
+
+  .forget-toggle {
+    float: right;
+    margin: -10px 0 0px;
+    color: #838383;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+  }
+}
+
+.rememberContent {
+  .modal-body {
+    padding: 30px 15px 25px;
+
+    p {
+      color: #838383;
+      margin: 0 0 15px;
+    }
+
+    .form-container {
+      .form-row {
+        margin: 0 0 25px;
+
+        .form-control {
+          box-shadow: none;
+          border-radius: 0;
+          height: 42px;
+        }
+      }
+
+      .main-button {
+        float: right;
+        width: 200px;
+        height: 42px;
+      }
+    }
+  }
+}
+
